@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  19 APR 2023 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  10 MAY 2023 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2624,7 +2624,7 @@ Overfull \hbox (88.30594pt too wide) has occurred while \output is active
 [38
 
  <./image3.png>]
-Overfull \hbox (8.8987pt too wide) detected at line 334
+Overfull \hbox (20.51pt too wide) detected at line 334
 []
  []
 
@@ -2641,7 +2641,7 @@ Overfull \hbox (88.30594pt too wide) has occurred while \output is active
 [39
 
 ]
-Overfull \hbox (8.8987pt too wide) detected at line 334
+Overfull \hbox (20.51pt too wide) detected at line 334
 []
  []
 
@@ -2793,7 +2793,7 @@ ype1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1
 /public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/yh
 math/yhcmex.pfb>
 Output written on C:/Users/Equipo/PycharmProjects/PRES-ELMO-P4/out/main.pdf (47
- pages, 2019544 bytes).
+ pages, 2019578 bytes).
 PDF statistics:
  1902 PDF objects out of 2073 (max. 8388607)
  1543 compressed objects within 16 object streams

@@ -5,7 +5,7 @@
 \documentclass{beamer}
 \usetheme{AnnArbor}
 \usecolortheme{seahorse}
-% Packages
+% Packages\
 \usepackage{amsmath}
 \usepackage{adjustbox}
 \usepackage{enumitem}
@@ -174,7 +174,7 @@
 \begin{frame}{2.2.3.- En un entorno del eje}
     Para $\rho \ll a$ (no necesariamente nulo), empleando la relación
     \begin{equation}
-        \frac{\partial B_{\rho}}{\partial \rho} (0,z) = - \frac{1}{2} \cdot \frac{\partial B_{z}}{\partial z} (0,z) \nonumber
+        \rho \cdot \frac{\partial B_{\rho}}{\partial \rho} (0,z) = - \frac{\rho}{2} \cdot \frac{\partial B_{z}}{\partial z} (0,z) \nonumber
     \end{equation}
     \pause y efectuando desarrollo de Taylor hasta orden 2, se obtiene de forma análoga
     \begin{align*}
@@ -296,7 +296,7 @@ I ± 0.1 (A) & Bh ± 0.01 (mT) \\ \hline
 \begin{frame}{3.2.3.- Componente horizontal}
     Escogiendo $\beta = \pi/2$, se tiene $sin(\alpha - \beta) = cos(\alpha)$ y \pause
     \begin{equation}
-        \abs{I_{H}} = \frac{\abs{B_{H}}}{K_{H}} \cdot tan(\alpha)\nonumber
+        \abs{I_{H}} = \frac{\abs{B_{TH}}}{K_{H}} \cdot tan(\alpha)\nonumber
     \end{equation}
 \end{frame}
 \begin{frame}{3.2.3.- Componente horizontal}
@@ -328,8 +328,8 @@ $\alpha \pm 1$ (degs) & $tan(\alpha)$      & $I_{H} \pm 0.1$ (mA) \\ \hline
 \begin{frame}{3.2.3.- Componente horizontal}
     Puesto que se conoce $K_{H} \pm \Delta K_{H}$ y \pause
     \begin{align*}
-        &\abs{B_{H}} \pm Delta \abs{B_{H}} = K_{H} \cdot \text{pendiente} + (\text{pendiente} \cdot \Delta K_{H} + K_{H} \cdot \Delta \text{pendiente}) \nonumber \\
-        &\iff \commentedbox{\abs{B_{H}} + \Delta \abs{B_{H}} = 16.75 \pm 0.25 \mu T }{}
+        &\abs{B_{TH}} \pm Delta \abs{B_{TH}} = K_{H} \cdot \text{pendiente} + (\text{pendiente} \cdot \Delta K_{H} + K_{H} \cdot \Delta \text{pendiente}) \nonumber \\
+        &\iff \commentedbox{\abs{B_{TH}} + \Delta \abs{B_{TH}} = 16.75 \pm 0.25 \mu T }{}
     \end{align*}
 \end{frame}
 \begin{frame}{3.2.4.- Componente vertical}
